@@ -1,0 +1,38 @@
+.photo-card {
+    position: absolute;
+}
+
+.photo-card--left {
+    left: 93px;
+    bottom: -5%;
+    transform: rotate(-15deg);
+}
+
+.photo-card--right {
+    right: 90px;
+    bottom: 0;
+    transform: rotate(15deg);
+}
+
+.photo-card__image {
+    width: 286px;
+    height: 382px;
+}
+
+.photo-card__image img {
+    height: 100%;
+    max-width: 100%;
+}
+
+.photo-card__date {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.photo-card--right .photo-card__image {
+    width: 278px;
+    height: 352px;
+}

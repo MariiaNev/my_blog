@@ -1,0 +1,36 @@
+.header {
+    border-bottom: 1px solid #9F9F9F;
+    position: relative;
+    z-index: 2;
+}
+
+.header__logo {
+    display: block;
+    font-size: 26px;
+    line-height: 1;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    padding: 26px 0;
+}
+
+.header__menu ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 46px;
+}
+
+.header__menu-item {
+    list-style: none;
+}
+
+.header__menu-item a {
+    text-decoration: none;
+    color: #201F1D;
+    font-size: 16px;
+    line-height: 1;
+}

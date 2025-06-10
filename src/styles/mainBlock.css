@@ -1,0 +1,21 @@
+.main-block {
+    text-align: center;
+    min-height: 856px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-84px);
+}
+
+.main-block__title {
+    font-size: 130px;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+
+
+.main-block__text {
+    max-width: 806px;
+    margin: 0 auto 52px;
+}

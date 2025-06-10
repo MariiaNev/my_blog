@@ -1,0 +1,28 @@
+.container {
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.container.middle {
+    max-width: 1065px;
+}
+
+.container.small {
+    max-width: 702px;
+}
+
+body {
+    background-image: url('../image/bg.png');
+    background-size: cover;
+    background-position: top;
+    font-family: 'Helvetica Now Display';
+    color: #201F1D;
+    font-size: 22px;
+    line-height: 140%;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
