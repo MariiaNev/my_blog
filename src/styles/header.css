@@ -2,6 +2,7 @@
     border-bottom: 1px solid #9F9F9F;
     position: relative;
     z-index: 2;
+    font-family: "Manrope", sans-serif;
 }
 
 .header__logo {

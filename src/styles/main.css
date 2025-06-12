@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url('../image/bg.png');
+    background-image: url('../image/bg.jpg');
     background-size: cover;
     background-position: top;
     font-family: 'Helvetica Now Display';
@@ -25,4 +25,32 @@ body {
 a {
     color: currentColor;
     text-decoration: none;
+}
+
+.line-bg {
+    position: fixed;
+    height: 100vh;
+    width: 1px;
+    background-color: #9F9F9F;
+    top: 0;
+}
+
+.line-bg:nth-child(1) {
+    left: calc(50% - 354px * 2);
+}
+
+.line-bg:nth-child(2) {
+    left: calc(50% - 354px);
+}
+
+.line-bg:nth-child(3) {
+    left: 50%;
+}
+
+.line-bg:nth-child(4) {
+    left: calc(50% + 354px);
+}
+
+.line-bg:nth-child(5) {
+    left: calc(50% + 354px * 2);
 }

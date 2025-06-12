@@ -2,6 +2,18 @@
     position: absolute;
 }
 
+.photo-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-image: url('../image/confiture1.png');
+    width: 200px;
+    height: 60px;
+    z-index: 1;
+}
+
 .photo-card--left {
     left: 93px;
     bottom: -5%;
@@ -12,6 +24,14 @@
     right: 90px;
     bottom: 0;
     transform: rotate(15deg);
+}
+
+.photo-card--right::after {
+    width: 136px;
+    height: 108px;
+    background-image: url('../image/confiture2.png');
+    margin-left: 40px;
+    transform: translateX(-50%) translateY(-50%) rotate(-20deg);
 }
 
 .photo-card__image {
